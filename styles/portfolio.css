@@ -79,7 +79,10 @@ margin-bottom: 30px;
 }
 /* main section style */
 
-
+main{
+    max-width: 1140px;
+    margin: 0 auto ;
+}
 
 /* about section style */
 .about{
@@ -99,4 +102,10 @@ text-align: center;
 color: #757575;
 font-size: 18px;
 }
-  
+  .about-info-container{
+    display: flex;
+    justify-content: space-around;
+  }
+  .about-info{
+    text-align: center;
+  }
